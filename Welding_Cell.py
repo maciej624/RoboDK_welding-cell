@@ -23,6 +23,9 @@ robot_abb.MoveJ(robot_abb.JointsHome())
 robot_abb.setSpeed(WELD_SPEED)
 for joints in weld_trajectory:
     robot_abb.MoveJ(joints)
+    if RDK.Collisions()>0:
+        RDK.ShowMessage("KOLIZJA!!! STOP")
+        sys.exit()
 
 robot_abb.setSpeed(TRAVEL_SPEED)
 robot_abb.MoveJ(robot_abb.JointsHome())
