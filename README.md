@@ -1,5 +1,7 @@
 # Zrobotyzowane Stanowisko Spawalnicze (RoboDK & Python)
 
+![Nagranie działania symulacji](presentation1.gif)
+
 Projekt symulacji zrobotyzowanego stanowiska spawalniczego z wykorzystaniem robota przemysłowego marki **ABB**, zrealizowany w środowisku offline programming - **RoboDK**. Projekt łączy symulację kinematyki z zaawansowaną logiką sterującą napisaną w języku Python.
 
 ## ⚙️ Główne funkcje i logika programu
