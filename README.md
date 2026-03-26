@@ -4,8 +4,8 @@ Projekt symulacji zrobotyzowanego stanowiska spawalniczego z wykorzystaniem robo
 
 ## ⚙️ Główne funkcje i logika programu
 Projekt nie jest tylko prostą animacją ścieżki, ale zawiera zaimplementowane algorytmy sterujące i bezpieczeństwa:
-* **Dynamiczna zmiana prędkości:** Robot automatycznie spowalnia ruch (zmniejszenie prędkości TCP) na czas wykonywania właściwego procesu spawania detalu (klocka), a po jego zakończeniu wraca do optymalnej prędkości przejazdowej.
-* **Aktywna detekcja kolizji:** Zaimplementowano skrypt, który stale monitoruje otoczenie robota. W przypadku wykrycia kolizji, program natychmiast generuje alert i zatrzymuje ruch ramienia, zapobiegając uszkodzeniom.
+* **Dynamiczna zmiana prędkości:** Robot automatycznie spowalnia ruch na czas wykonywania właściwego procesu spawania detalu (klocka), a po jego zakończeniu wraca do optymalnej prędkości przejazdowej.
+* **Aktywna detekcja kolizji:** W przypadku wykrycia kolizji, program natychmiast generuje alert i zatrzymuje ruch ramienia, zapobiegając uszkodzeniom.
 
 ## 🛠️ Wykorzystane technologie
 * **Środowisko:** RoboDK
